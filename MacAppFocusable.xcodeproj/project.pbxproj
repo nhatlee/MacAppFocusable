@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1EA18B248FCAE6003A6D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA18A248FCAE6003A6D4A /* AppDelegate.swift */; };
+		DC1EA18D248FCAE6003A6D4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA18C248FCAE6003A6D4A /* ContentView.swift */; };
+		DC1EA18F248FCAE7003A6D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1EA18E248FCAE7003A6D4A /* Assets.xcassets */; };
+		DC1EA192248FCAE7003A6D4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1EA191248FCAE7003A6D4A /* Preview Assets.xcassets */; };
+		DC1EA195248FCAE7003A6D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1EA193248FCAE7003A6D4A /* Main.storyboard */; };
+		DC1EA19E248FCF0C003A6D4A /* Focusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA19D248FCF0C003A6D4A /* Focusable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC1EA187248FCAE6003A6D4A /* MacAppFocusable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAppFocusable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1EA18A248FCAE6003A6D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC1EA18C248FCAE6003A6D4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC1EA18E248FCAE7003A6D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC1EA191248FCAE7003A6D4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC1EA194248FCAE7003A6D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC1EA196248FCAE7003A6D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1EA197248FCAE7003A6D4A /* MacAppFocusable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacAppFocusable.entitlements; sourceTree = "<group>"; };
+		DC1EA19D248FCF0C003A6D4A /* Focusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focusable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1EA184248FCAE6003A6D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1EA17E248FCAE6003A6D4A = {
+			isa = PBXGroup;
+			children = (
+				DC1EA189248FCAE6003A6D4A /* MacAppFocusable */,
+				DC1EA188248FCAE6003A6D4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1EA188248FCAE6003A6D4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1EA187248FCAE6003A6D4A /* MacAppFocusable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1EA189248FCAE6003A6D4A /* MacAppFocusable */ = {
+			isa = PBXGroup;
+			children = (
+				DC1EA18A248FCAE6003A6D4A /* AppDelegate.swift */,
+				DC1EA18C248FCAE6003A6D4A /* ContentView.swift */,
+				DC1EA19D248FCF0C003A6D4A /* Focusable.swift */,
+				DC1EA18E248FCAE7003A6D4A /* Assets.xcassets */,
+				DC1EA193248FCAE7003A6D4A /* Main.storyboard */,
+				DC1EA196248FCAE7003A6D4A /* Info.plist */,
+				DC1EA197248FCAE7003A6D4A /* MacAppFocusable.entitlements */,
+				DC1EA190248FCAE7003A6D4A /* Preview Content */,
+			);
+			path = MacAppFocusable;
+			sourceTree = "<group>";
+		};
+		DC1EA190248FCAE7003A6D4A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC1EA191248FCAE7003A6D4A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC1EA186248FCAE6003A6D4A /* MacAppFocusable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1EA19A248FCAE7003A6D4A /* Build configuration list for PBXNativeTarget "MacAppFocusable" */;
+			buildPhases = (
+				DC1EA183248FCAE6003A6D4A /* Sources */,
+				DC1EA184248FCAE6003A6D4A /* Frameworks */,
+				DC1EA185248FCAE6003A6D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAppFocusable;
+			productName = MacAppFocusable;
+			productReference = DC1EA187248FCAE6003A6D4A /* MacAppFocusable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC1EA17F248FCAE6003A6D4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = VNG;
+				TargetAttributes = {
+					DC1EA186248FCAE6003A6D4A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = DC1EA182248FCAE6003A6D4A /* Build configuration list for PBXProject "MacAppFocusable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC1EA17E248FCAE6003A6D4A;
+			productRefGroup = DC1EA188248FCAE6003A6D4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1EA186248FCAE6003A6D4A /* MacAppFocusable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC1EA185248FCAE6003A6D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1EA195248FCAE7003A6D4A /* Main.storyboard in Resources */,
+				DC1EA192248FCAE7003A6D4A /* Preview Assets.xcassets in Resources */,
+				DC1EA18F248FCAE7003A6D4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC1EA183248FCAE6003A6D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1EA19E248FCF0C003A6D4A /* Focusable.swift in Sources */,
+				DC1EA18D248FCAE6003A6D4A /* ContentView.swift in Sources */,
+				DC1EA18B248FCAE6003A6D4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC1EA193248FCAE7003A6D4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1EA194248FCAE7003A6D4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC1EA198248FCAE7003A6D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC1EA199248FCAE7003A6D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DC1EA19B248FCAE7003A6D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacAppFocusable/MacAppFocusable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacAppFocusable/Preview Content\"";
+				DEVELOPMENT_TEAM = NA49TH345U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacAppFocusable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.MacAppFocusable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC1EA19C248FCAE7003A6D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacAppFocusable/MacAppFocusable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacAppFocusable/Preview Content\"";
+				DEVELOPMENT_TEAM = NA49TH345U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacAppFocusable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.MacAppFocusable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC1EA182248FCAE6003A6D4A /* Build configuration list for PBXProject "MacAppFocusable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1EA198248FCAE7003A6D4A /* Debug */,
+				DC1EA199248FCAE7003A6D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1EA19A248FCAE7003A6D4A /* Build configuration list for PBXNativeTarget "MacAppFocusable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1EA19B248FCAE7003A6D4A /* Debug */,
+				DC1EA19C248FCAE7003A6D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC1EA17F248FCAE6003A6D4A /* Project object */;
+}
